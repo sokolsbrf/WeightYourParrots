@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <stroke
+        android:width="4dp"
+        android:color="@color/colorAccent"
+        android:dashWidth="4dp"
+        android:dashGap="4dp" />
+
+    <corners
+        android:bottomLeftRadius="16dp"
+        android:bottomRightRadius="32dp"
+        android:topLeftRadius="32dp" />
+
+    <gradient
+        android:angle="45"
+        android:centerColor="@color/colorPrimary"
+        android:endColor="@color/colorPrimaryDark"
+        android:startColor="@color/colorAccent"
+        />
+
+    <size
+        android:width="128dp"
+        android:height="128dp" />
+
+    <padding
+        android:bottom="@dimen/drawable_padding"
+        android:left="@dimen/drawable_padding"
+        android:right="@dimen/drawable_padding"
+        android:top="@dimen/drawable_padding" />
+
+</shape>

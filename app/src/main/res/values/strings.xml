@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DemoDrawable</string>
+
+    <plurals name="parrots">
+        <item quantity="one">%1$d попугай</item>
+        <item quantity="two">%1$d попугая</item>
+        <item quantity="few">%1$d попугая</item>
+        <item quantity="many">%1$d попугаев</item>
+        <item quantity="other">%1$d попугаев</item>
+    </plurals>
+</resources>
